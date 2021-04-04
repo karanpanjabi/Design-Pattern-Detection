@@ -3,20 +3,18 @@
  */
 
 import cpp
+import util
 
-predicate checkPath(Element el) { exists(string s | s = el.getFile().getRelativePath()) }
-
-predicate hasCompositeChildren(Class composite, Class base) {
+predicate hasCompositeChildren(CompositeClass composite) {
   count(MemberVariable var |
     var = composite.getAMemberVariable() and
-    var.getType().stripType() = base
+    var.getType().stripType() = composite.getABaseClass()
   |
     var
   ) > 1
 }
 
 predicate hasArrayOrVectorChildren(CompositeClass composite) {
-    checkPath(composite) and
     exists(
         MemberVariable var |
         var = composite.getAMemberVariable() and
@@ -24,14 +22,29 @@ predicate hasArrayOrVectorChildren(CompositeClass composite) {
     )
 }
 
-query predicate hasAggregateChildren(CompositeClass composite, Class base) {
-  hasCompositeChildren(composite, base)
+query predicate hasAggregateChildren(CompositeClass composite) {
+  hasCompositeChildren(composite)
 //   or
 //   hasArrayOrVectorChildren(composite, base)
 }
 
-predicate hasCompositeOperation(CompositeClass composite) {
-    composite.
+query predicate hasCompositeOperation(CompositeClass composite) {
+    exists(
+      MemberFunction func, FunctionCall fcall1, FunctionCall fcall2 |
+      func = composite.getAnOverridenMethod() and
+      fcall1.getEnclosingFunction() = func and
+      fcall2.getEnclosingFunction() = func and
+      fcall1.getAPredecessor().(PointerFieldAccess).getTarget() != fcall2.getAPredecessor().(PointerFieldAccess).getTarget()
+    ) 
+    or
+    exists(
+      MemberFunction func, FunctionCall fcall, BlockStmt stmt, BlockStmt stmt2, ForStmt fstmt |
+      func = composite.getAnOverridenMethod() and
+      fcall.getEnclosingFunction() = func and
+      fstmt = func.getBlock().getAChild() and
+      stmt = fcall.getEnclosingBlock() and
+      stmt = fstmt.getStmt()
+    ) 
 }
 
 class CompositeClass extends Class {
@@ -46,6 +59,15 @@ class CompositeClass extends Class {
   Class getBaseComponent() {
       result = baseComponent
   }
+
+  MemberFunction getAnOverridenMethod() {
+    exists(MemberFunction func |
+      func = this.getAMemberFunction() and
+      func.isVirtual() and
+      not func instanceof Destructor and
+      result = func
+    )
+  }
 } 
 
 
@@ -53,5 +75,5 @@ class CompositeClass extends Class {
 // select c, c.getLocation()
 
 from CompositeClass c
-where hasAggregateChildren(c, c.getBaseComponent())
+where hasAggregateChildren(c)
 select c, c.getAMemberVariable().getType().getAQlClass()
