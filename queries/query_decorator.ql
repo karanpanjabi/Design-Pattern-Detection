@@ -5,6 +5,8 @@
 import cpp
 import util
 
+predicate isClassAbstract(Class c) { c.isAbstract() }
+
 class BaseDecoratorClass extends Class {
   Class componentclass;
   MemberVariable compvar;
@@ -12,7 +14,6 @@ class BaseDecoratorClass extends Class {
   BaseDecoratorClass() {
     // derivation
     this.derivesFrom(componentclass) and
-    this.isAbstract() and
     componentclass.isAbstract() and
     // variable checking
     compvar.getType().stripType() = componentclass and
@@ -34,13 +35,32 @@ query predicate hasCallToOperation(ConcreteDecoratorClass conc_deco) {
   )
 }
 
+// query predicate hasOtherFunctionality(ConcreteDecoratorClass conc_deco) {
+//   exists(MemberFunction func, MemberFunction component_func, BlockStmt blkstmt, Stmt stmt, int c |
+//     func = conc_deco.getAnOverridenMethod() and
+//     component_func = func.getAnOverriddenFunction+() and
+//     blkstmt = func.getBlock() and
+//     c = blkstmt.getNumStmt() and
+//     c > 2
+//   )
+// }
 query predicate hasOtherFunctionality(ConcreteDecoratorClass conc_deco) {
-  exists(MemberFunction func, MemberFunction component_func, BlockStmt blkstmt, Stmt stmt, int c |
+  exists(
+    MemberFunction func, MemberFunction component_func, BlockStmt blkstmt,
+    FunctionCall fcall
+  |
     func = conc_deco.getAnOverridenMethod() and
     component_func = func.getAnOverriddenFunction+() and
     blkstmt = func.getBlock() and
-    c = blkstmt.getNumStmt() and
-    c > 2
+    fcall.getEnclosingFunction() = func and
+    fcall.getTarget() = component_func and
+    not (
+      (
+        fcall.getASuccessor() = func or
+        fcall.getASuccessor() instanceof ReturnStmt
+      ) and
+      fcall.(ControlFlowNode).getEnclosingStmt().getAPredecessor() = blkstmt
+    )
   )
 }
 
@@ -57,23 +77,23 @@ class ConcreteDecoratorClass extends Class {
   MemberFunction getAnOverridenMethod() {
     exists(MemberFunction func |
       func = this.getAMemberFunction() and
-      func.getAnOverriddenFunction().getDeclaringType() instanceof BaseDecoratorClass and
+      func.isVirtual() and
       not func instanceof Destructor and
       result = func
     )
   }
 }
 
-query BaseDecoratorClass getBaseDecoratorClasses() {
-    checkPath(result)
+query BaseDecoratorClass getBaseDecoratorClasses() { checkPath(result) }
+
+query BaseDecoratorClass getStrictBaseDecoratorClasses() {
+  checkPath(result) and
+  isClassAbstract(result)
 }
 
-query ConcreteDecoratorClass getConcreteDecoratorClasses() {
-    checkPath(result)
-}
-
-query ConcreteDecoratorClass getStrictConcreteDecoratorClasses() {
-    checkPath(result) and
-    hasCallToOperation(result) and
-    hasOtherFunctionality(result)
-}
+query ConcreteDecoratorClass getConcreteDecoratorClasses() { checkPath(result) }
+// query ConcreteDecoratorClass getStrictConcreteDecoratorClasses() {
+//     checkPath(result) and
+//     hasCallToOperation(result) and
+//     hasOtherFunctionality(result)
+// }
