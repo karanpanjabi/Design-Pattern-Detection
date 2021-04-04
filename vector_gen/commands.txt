@@ -1,0 +1,5 @@
+codeql database run-queries vectorgen_db vgen.ql
+
+codeql bqrs info --format=json vectorgen_db/results/vectorgen/vgen.bqrs
+
+codeql bqrs decode --format=csv --result-set=getAllClasses vectorgen_db/results/vectorgen/vgen.bqrs
