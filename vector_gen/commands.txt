@@ -1,5 +1,86 @@
+codeql database create something_db -l=cpp
+
 codeql database run-queries vectorgen_db vgen.ql
 
 codeql bqrs info --format=json vectorgen_db/results/vectorgen/vgen.bqrs
 
 codeql bqrs decode --format=csv --result-set=getAllClasses vectorgen_db/results/vectorgen/vgen.bqrs
+
+
+
+
+
+
+
+
+------------- info cmd output --------------
+
+{
+  "result-sets" : [
+    {
+      "name" : "hasRestrictedConstructors",
+      "rows" : 0,
+      "columns" : [
+        {
+          "name" : "c",
+          "kind" : "e"
+        }
+      ]
+    },
+    {
+      "name" : "hasStaticFunctionWithSameReturn",
+      "rows" : 0,
+      "columns" : [
+        {
+          "name" : "c",
+          "kind" : "e"
+        }
+      ]
+    },
+    {
+      "name" : "hasNoFriends",
+      "rows" : 16,
+      "columns" : [
+        {
+          "name" : "c",
+          "kind" : "e"
+        }
+      ]
+    },
+    {
+      "name" : "hasStaticVariableWithSameType",
+      "rows" : 0,
+      "columns" : [
+        {
+          "name" : "c",
+          "kind" : "e"
+        }
+      ]
+    },
+    {
+      "name" : "hasMemberFunctionWithStaticVar",
+      "rows" : 0,
+      "columns" : [
+        {
+          "name" : "c",
+          "kind" : "e"
+        }
+      ]
+    },
+    {
+      "name" : "getAllClasses",
+      "rows" : 16,
+      "columns" : [
+        {
+          "name" : "c",
+          "kind" : "e"
+        }
+      ]
+    }
+  ],
+  "compatible-query-kinds" : [
+    "Table"
+  ]
+}
+
+----------------------------------------------

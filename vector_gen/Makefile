@@ -1,2 +1,4 @@
-a.out:
-	g++ all.cpp
+a.out: FORCE
+	g++ state_strategy.cpp
+
+FORCE: ;

@@ -1,0 +1,1296 @@
+[T 01:05:58 13308] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13308] Compilers file as of 2021-04-07 01:05:58
+[T 01:05:58 13308] Compiler pattern: **/configure
+[T 01:05:58 13308] Replace intercepted call: 0
+[T 01:05:58 13308] Extractor: <null>
+[T 01:05:58 13308] Compilers file as of 2021-04-07 01:05:58
+[T 01:05:58 13308] Compiler pattern: **/do-prebuild
+[T 01:05:58 13308] Replace intercepted call: 0
+[T 01:05:58 13308] Extractor: <null>
+[T 01:05:58 13308] Compilers file as of 2021-04-07 01:05:58
+[T 01:05:58 13308] Compiler pattern: **/collect2
+[T 01:05:58 13308] Replace intercepted call: 0
+[T 01:05:58 13308] Extractor: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 01:05:58 13308] Prepend[0] "--linker"
+[T 01:05:58 13308] Prepend[1] "--semmle-linker-executable"
+[T 01:05:58 13308] Prepend[2] "${compiler}"
+[T 01:05:58 13308] Compilers file as of 2021-04-07 01:05:58
+[T 01:05:58 13308] Compiler pattern: **/lld*
+[T 01:05:58 13308] Replace intercepted call: 0
+[T 01:05:58 13308] Extractor: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 01:05:58 13308] Prepend[0] "--linker"
+[T 01:05:58 13308] Prepend[1] "--semmle-linker-executable"
+[T 01:05:58 13308] Prepend[2] "${compiler}"
+[T 01:05:58 13308] Compilers file as of 2021-04-07 01:05:58
+[T 01:05:58 13308] Compiler pattern: **/*-ld*
+[T 01:05:58 13308] Replace intercepted call: 0
+[T 01:05:58 13308] Extractor: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 01:05:58 13308] Prepend[0] "--linker"
+[T 01:05:58 13308] Prepend[1] "--semmle-linker-executable"
+[T 01:05:58 13308] Prepend[2] "${compiler}"
+[T 01:05:58 13308] Compilers file as of 2021-04-07 01:05:58
+[T 01:05:58 13308] Compiler pattern: **/ld*
+[T 01:05:58 13308] Replace intercepted call: 0
+[T 01:05:58 13308] Extractor: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 01:05:58 13308] Prepend[0] "--linker"
+[T 01:05:58 13308] Prepend[1] "--semmle-linker-executable"
+[T 01:05:58 13308] Prepend[2] "${compiler}"
+[T 01:05:58 13308] Compilers file as of 2021-04-07 01:05:58
+[T 01:05:58 13308] Compiler pattern: **/armlink
+[T 01:05:58 13308] Replace intercepted call: 0
+[T 01:05:58 13308] Extractor: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 01:05:58 13308] Prepend[0] "--arm-linker"
+[T 01:05:58 13308] Prepend[1] "--semmle-linker-executable"
+[T 01:05:58 13308] Prepend[2] "${compiler}"
+[T 01:05:58 13308] Compilers file as of 2021-04-07 01:05:58
+[T 01:05:58 13308] Compiler pattern: **/icpc
+[T 01:05:58 13308] Replace intercepted call: 0
+[T 01:05:58 13308] Extractor: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 01:05:58 13308] Prepend[0] "--mimic"
+[T 01:05:58 13308] Prepend[1] "${compiler}"
+[T 01:05:58 13308] Compilers file as of 2021-04-07 01:05:58
+[T 01:05:58 13308] Compiler pattern: **/*++*
+[T 01:05:58 13308] Replace intercepted call: 0
+[T 01:05:58 13308] Extractor: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 01:05:58 13308] Prepend[0] "--mimic"
+[T 01:05:58 13308] Prepend[1] "${compiler}"
+[T 01:05:58 13308] Compilers file as of 2021-04-07 01:05:58
+[T 01:05:58 13308] Compiler pattern: **/*cc*
+[T 01:05:58 13308] Replace intercepted call: 0
+[T 01:05:58 13308] Extractor: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 01:05:58 13308] Prepend[0] "--mimic"
+[T 01:05:58 13308] Prepend[1] "${compiler}"
+[T 01:05:58 13308] Compilers file as of 2021-04-07 01:05:58
+[T 01:05:58 13308] Compiler pattern: **/*clang*
+[T 01:05:58 13308] Replace intercepted call: 0
+[T 01:05:58 13308] Extractor: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 01:05:58 13308] Prepend[0] "--mimic"
+[T 01:05:58 13308] Prepend[1] "${compiler}"
+[T 01:05:58 13308] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13308] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 01:05:58 13308] ==== Candidate to intercept: /home/karan/Documents/codeql-home/codeql/tools/linux64/runner-linux (canonical: /home/karan/Documents/codeql-home/codeql/tools/linux64/runner-linux) ====
+[T 01:05:58 13308] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13308] ==== Candidate to intercept: /home/karan/Documents/codeql-home/codeql/cpp/tools/autobuild.sh (canonical: /home/karan/Documents/codeql-home/codeql/cpp/tools/autobuild.sh) ====
+[T 01:05:58 13309] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13309] ==== Candidate to intercept: /home/karan/Documents/codeql-home/codeql/cpp/tools/do-prebuild (canonical: /home/karan/Documents/codeql-home/codeql/cpp/tools/do-prebuild) ====
+[T 01:05:58 13309] === Intercepted call to /home/karan/Documents/codeql-home/codeql/cpp/tools/do-prebuild === 
+[T 01:05:58 13309] Disabling tracing for this command.
+[T 01:05:58 13326] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13326] ==== Candidate to intercept: /home/karan/Documents/codeql-home/codeql/cpp/tools/do-build (canonical: /home/karan/Documents/codeql-home/codeql/cpp/tools/do-build) ====
+[T 01:05:58 13327] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13327] ==== Candidate to intercept: /usr/bin/readlink (canonical: /usr/bin/readlink) ====
+[T 01:05:58 13328] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13328] ==== Candidate to intercept: /usr/bin/make (canonical: /usr/bin/make) ====
+[T 01:05:58 13329] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13329] ==== Candidate to intercept: g++ (canonical: g++) ====
+[T 01:05:58 13329] Will try to resolve g++ in path /home/karan/.local/bin:/home/karan/Documents/codeql-home/codeql:/home/karan/.local/bin:/home/karan/Documents/codeql-home/codeql:/home/karan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 01:05:58 13329]  -> path lookup for g++ as /home/karan/.local/bin/g++...
+[T 01:05:58 13329]  -> path lookup for g++ as /home/karan/Documents/codeql-home/codeql/g++...
+[T 01:05:58 13329]  -> path lookup for g++ as /home/karan/.local/bin/g++...
+[T 01:05:58 13329]  -> path lookup for g++ as /home/karan/Documents/codeql-home/codeql/g++...
+[T 01:05:58 13329]  -> path lookup for g++ as /home/karan/.local/bin/g++...
+[T 01:05:58 13329]  -> path lookup for g++ as /usr/local/sbin/g++...
+[T 01:05:58 13329]  -> path lookup for g++ as /usr/local/bin/g++...
+[T 01:05:58 13329]  -> path lookup for g++ as /usr/sbin/g++...
+[T 01:05:58 13329]  -> path lookup for g++ as /usr/bin/g++...
+[T 01:05:58 13329] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/x86_64-linux-gnu-g++-9) ====
+[T 01:05:58 13329] === Intercepted call to /usr/bin/x86_64-linux-gnu-g++-9 === 
+[T 01:05:58 13329] Resolved barename g++ to /usr/bin/g++, which matched **/*++*...
+[T 01:05:58 13331] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13331] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus) ====
+[T 01:05:58 13331] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus === 
+[T 01:05:58 13336] Attempting to switch stdout/stderr to 4...
+[T 01:05:58 13336] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13336] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13336] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13336] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -imultiarch x86_64-linux-gnu -D_GNU_SOURCE state_strategy.cpp -quiet -dumpbase state_strategy.cpp -mtune=generic -march=x86-64 -auxbase state_strategy -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFTnvJ8.s
+[T 01:05:58 13337] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13337] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus) ====
+[T 01:05:58 13337] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus === 
+[T 01:05:58 13339] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13339] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13339] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13339] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13339] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus --version
+[E 01:05:58 13339] Within classification loop; exiting.
+[T 01:05:58 13337] Extractor terminated with exit code 0.
+[T 01:05:58 13340] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13340] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus) ====
+[T 01:05:58 13340] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus === 
+[T 01:05:58 13342] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13342] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13342] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13342] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13342] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus --help
+[E 01:05:58 13342] Within classification loop; exiting.
+[T 01:05:58 13340] Extractor terminated with exit code 0.
+[E 01:05:58 13336] Not a compiler; exiting. Reason: --version stdout was:
+
+--version stderr was:
+
+process exited with code 0
+
+[T 01:05:58 13331] Extractor terminated with exit code 0.
+[T 01:05:58 13344] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13344] ==== Candidate to intercept: as (canonical: as) ====
+[T 01:05:58 13344] Will try to resolve as in path /home/karan/.local/bin:/home/karan/Documents/codeql-home/codeql:/home/karan/.local/bin:/home/karan/Documents/codeql-home/codeql:/home/karan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 01:05:58 13344]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13344]  -> path lookup for as as /home/karan/Documents/codeql-home/codeql/as...
+[T 01:05:58 13344]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13344]  -> path lookup for as as /home/karan/Documents/codeql-home/codeql/as...
+[T 01:05:58 13344]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13344]  -> path lookup for as as /usr/local/sbin/as...
+[T 01:05:58 13344]  -> path lookup for as as /usr/local/bin/as...
+[T 01:05:58 13344]  -> path lookup for as as /usr/sbin/as...
+[T 01:05:58 13344]  -> path lookup for as as /usr/bin/as...
+[T 01:05:58 13344] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 01:05:58 13344] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 01:05:58 13345] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13345] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/collect2 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/collect2) ====
+[T 01:05:58 13345] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/collect2 === 
+[T 01:05:58 13346] Attempting to switch stdout/stderr to 4...
+[T 01:05:58 13346] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13346] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13346] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13346] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --linker --semmle-linker-executable /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2HmKkb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. /tmp/ccbstJoa.o '-lstdc++' -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+Warning: Unrecognised command line argument -plugin
+Warning: Unrecognised command line argument -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+Warning: Unrecognised command line argument -plugin-opt=-fresolution=/tmp/cc2HmKkb.res
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc_s
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc_s
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc
+Warning: Unrecognised command line argument --build-id
+[E 01:05:58 13346] Warning[extractor-c++]: In print_object_names: Could not open object file "elf_x86_64" (error 2: No such file or directory).
+[T 01:05:58 13347] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13347] ==== Candidate to intercept: /usr/bin/ld (canonical: /usr/bin/x86_64-linux-gnu-ld.bfd) ====
+[T 01:05:58 13347] === Intercepted call to /usr/bin/x86_64-linux-gnu-ld.bfd === 
+[T 01:05:58 13348] Attempting to switch stdout/stderr to 4...
+[T 01:05:58 13348] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13348] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13348] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13348] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --linker --semmle-linker-executable /usr/bin/x86_64-linux-gnu-ld.bfd -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2HmKkb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. /tmp/ccbstJoa.o '-lstdc++' -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+Warning: Unrecognised command line argument -plugin
+Warning: Unrecognised command line argument -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+Warning: Unrecognised command line argument -plugin-opt=-fresolution=/tmp/cc2HmKkb.res
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc_s
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc_s
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc
+Warning: Unrecognised command line argument --build-id
+[E 01:05:58 13348] Warning[extractor-c++]: In print_object_names: Could not open object file "elf_x86_64" (error 2: No such file or directory).
+[T 01:05:58 13349] Attempting to switch stdout/stderr to 4...
+[T 01:05:58 13349] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13349] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13349] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13349] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/x86_64-linux-gnu-g++-9' state_strategy.cpp
+[T 01:05:58 13350] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13350] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-g++-9 (canonical: /usr/bin/x86_64-linux-gnu-g++-9) ====
+[T 01:05:58 13350] === Intercepted call to /usr/bin/x86_64-linux-gnu-g++-9 === 
+[T 01:05:58 13352] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13352] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13352] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13352] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13352] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/x86_64-linux-gnu-g++-9' --version
+[E 01:05:58 13352] Within classification loop; exiting.
+[T 01:05:58 13350] Extractor terminated with exit code 0.
+[T 01:05:58 13353] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13353] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-g++-9 (canonical: /usr/bin/x86_64-linux-gnu-g++-9) ====
+[T 01:05:58 13353] === Intercepted call to /usr/bin/x86_64-linux-gnu-g++-9 === 
+[T 01:05:58 13355] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13355] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13355] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13355] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13355] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/x86_64-linux-gnu-g++-9' --help
+[E 01:05:58 13355] Within classification loop; exiting.
+[T 01:05:58 13353] Extractor terminated with exit code 0.
+[T 01:05:58 13356] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13356] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-g++-9 (canonical: /usr/bin/x86_64-linux-gnu-g++-9) ====
+[T 01:05:58 13356] === Intercepted call to /usr/bin/x86_64-linux-gnu-g++-9 === 
+[T 01:05:58 13358] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13358] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus) ====
+[T 01:05:58 13358] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus === 
+[T 01:05:58 13360] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13360] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13360] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13360] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13360] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -nostdinc -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_1_13349_637223semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -quiet -dumpbase semmle_1_13349_637223semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -mtune=generic -march=x86-64 -auxbase-strip /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_2_13349_637256.o -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccjBjq29.s
+[E 01:05:58 13360] Not a compiler; exiting. Reason: --version stdout was:
+[T 01:05:58 13358] Extractor terminated with exit code 0.
+[T 01:05:58 13361] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13361] ==== Candidate to intercept: as (canonical: as) ====
+[T 01:05:58 13361] Will try to resolve as in path /home/karan/.local/bin:/home/karan/Documents/codeql-home/codeql:/home/karan/.local/bin:/home/karan/Documents/codeql-home/codeql:/home/karan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 01:05:58 13361]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13361]  -> path lookup for as as /home/karan/Documents/codeql-home/codeql/as...
+[T 01:05:58 13361]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13361]  -> path lookup for as as /home/karan/Documents/codeql-home/codeql/as...
+[T 01:05:58 13361]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13361]  -> path lookup for as as /usr/local/sbin/as...
+[T 01:05:58 13361]  -> path lookup for as as /usr/local/bin/as...
+[T 01:05:58 13361]  -> path lookup for as as /usr/sbin/as...
+[T 01:05:58 13361]  -> path lookup for as as /usr/bin/as...
+[T 01:05:58 13361] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 01:05:58 13361] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 01:05:58 13362] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13362] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13362] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13362] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13362] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/x86_64-linux-gnu-g++-9' -nostdinc -o /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_2_13349_637256.o -c /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_1_13349_637223semmle-0D54A72C891C4B89888FCE7759D3B8A5.c
+[E 01:05:58 13362] Within classification loop; exiting.
+[T 01:05:58 13356] Extractor terminated with exit code 0.
+[T 01:05:58 13363] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13363] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-g++-9 (canonical: /usr/bin/x86_64-linux-gnu-g++-9) ====
+[T 01:05:58 13363] === Intercepted call to /usr/bin/x86_64-linux-gnu-g++-9 === 
+[T 01:05:58 13365] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13365] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus) ====
+[T 01:05:58 13365] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus === 
+[T 01:05:58 13367] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13367] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13367] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13367] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13367] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -nostdinc -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -iwithprefix 80AD44EC-F542-4CCF-8C9F-328EB87D7D35 /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_1_13349_637223semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -quiet -dumpbase semmle_1_13349_637223semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -mtune=generic -march=x86-64 -auxbase-strip /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_2_13349_637256.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccX6RKYI.s
+[E 01:05:58 13367] Not a compiler; exiting. Reason: --version stdout was:
+[T 01:05:58 13365] Extractor terminated with exit code 0.
+[T 01:05:58 13368] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13368] ==== Candidate to intercept: as (canonical: as) ====
+[T 01:05:58 13368] Will try to resolve as in path /home/karan/.local/bin:/home/karan/Documents/codeql-home/codeql:/home/karan/.local/bin:/home/karan/Documents/codeql-home/codeql:/home/karan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 01:05:58 13368]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13368]  -> path lookup for as as /home/karan/Documents/codeql-home/codeql/as...
+[T 01:05:58 13368]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13368]  -> path lookup for as as /home/karan/Documents/codeql-home/codeql/as...
+[T 01:05:58 13368]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13368]  -> path lookup for as as /usr/local/sbin/as...
+[T 01:05:58 13368]  -> path lookup for as as /usr/local/bin/as...
+[T 01:05:58 13368]  -> path lookup for as as /usr/sbin/as...
+[T 01:05:58 13368]  -> path lookup for as as /usr/bin/as...
+[T 01:05:58 13368] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 01:05:58 13368] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 01:05:58 13369] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13369] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13369] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13369] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13369] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/x86_64-linux-gnu-g++-9' -nostdinc -o /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_2_13349_637256.o -c /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_1_13349_637223semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -v -iwithprefix 80AD44EC-F542-4CCF-8C9F-328EB87D7D35
+[E 01:05:58 13369] Within classification loop; exiting.
+[T 01:05:58 13363] Extractor terminated with exit code 0.
+[T 01:05:58 13370] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13370] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-g++-9 (canonical: /usr/bin/x86_64-linux-gnu-g++-9) ====
+[T 01:05:58 13370] === Intercepted call to /usr/bin/x86_64-linux-gnu-g++-9 === 
+[T 01:05:58 13372] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13372] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus) ====
+[T 01:05:58 13372] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus === 
+[T 01:05:58 13374] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13374] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13374] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13374] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13374] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -nostdinc -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_4_13349_674396.c -quiet -dumpbase semmle_4_13349_674396.c -mtune=generic -march=x86-64 -auxbase-strip /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_5_13349_674418.o -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccZ5oA2f.s
+[E 01:05:58 13374] Not a compiler; exiting. Reason: --version stdout was:
+[T 01:05:58 13372] Extractor terminated with exit code 0.
+[T 01:05:58 13375] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13375] ==== Candidate to intercept: as (canonical: as) ====
+[T 01:05:58 13375] Will try to resolve as in path /home/karan/.local/bin:/home/karan/Documents/codeql-home/codeql:/home/karan/.local/bin:/home/karan/Documents/codeql-home/codeql:/home/karan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 01:05:58 13375]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13375]  -> path lookup for as as /home/karan/Documents/codeql-home/codeql/as...
+[T 01:05:58 13375]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13375]  -> path lookup for as as /home/karan/Documents/codeql-home/codeql/as...
+[T 01:05:58 13375]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13375]  -> path lookup for as as /usr/local/sbin/as...
+[T 01:05:58 13375]  -> path lookup for as as /usr/local/bin/as...
+[T 01:05:58 13375]  -> path lookup for as as /usr/sbin/as...
+[T 01:05:58 13375]  -> path lookup for as as /usr/bin/as...
+[T 01:05:58 13375] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 01:05:58 13375] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 01:05:58 13376] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13376] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13376] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13376] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13376] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/x86_64-linux-gnu-g++-9' -nostdinc -o /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_5_13349_674418.o -c /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_4_13349_674396.c
+[E 01:05:58 13376] Within classification loop; exiting.
+[T 01:05:58 13370] Extractor terminated with exit code 0.
+[T 01:05:58 13377] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13377] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-g++-9 (canonical: /usr/bin/x86_64-linux-gnu-g++-9) ====
+[T 01:05:58 13377] === Intercepted call to /usr/bin/x86_64-linux-gnu-g++-9 === 
+[T 01:05:58 13379] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13379] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus) ====
+[T 01:05:58 13379] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus === 
+[T 01:05:58 13381] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13381] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13381] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13381] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13381] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_7_13349_688807 -quiet -dumpbase semmle_7_13349_688807 -mtune=generic -march=x86-64 -auxbase semmle_7_13349_688807 -version -fsyntax-only -o /dev/null -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection
+[E 01:05:58 13381] Not a compiler; exiting. Reason: --version stdout was:
+[T 01:05:58 13379] Extractor terminated with exit code 0.
+[T 01:05:58 13382] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13382] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13382] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13382] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13382] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/x86_64-linux-gnu-g++-9' -x 'c++' -v -fsyntax-only /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_7_13349_688807
+[E 01:05:58 13382] Within classification loop; exiting.
+[T 01:05:58 13377] Extractor terminated with exit code 0.
+[T 01:05:58 13383] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13383] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-g++-9 (canonical: /usr/bin/x86_64-linux-gnu-g++-9) ====
+[T 01:05:58 13383] === Intercepted call to /usr/bin/x86_64-linux-gnu-g++-9 === 
+[T 01:05:58 13385] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13385] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus) ====
+[T 01:05:58 13385] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus === 
+[T 01:05:58 13387] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13387] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13387] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13387] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13387] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -E -quiet -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_8_13349_700254 -mtune=generic -march=x86-64 -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -dM
+[E 01:05:58 13387] Not a compiler; exiting. Reason: --version stdout was:
+[T 01:05:58 13385] Extractor terminated with exit code 0.
+[T 01:05:58 13388] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13388] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13388] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13388] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13388] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/x86_64-linux-gnu-g++-9' -x 'c++' -E -dM /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_8_13349_700254
+[E 01:05:58 13388] Within classification loop; exiting.
+[T 01:05:58 13383] Extractor terminated with exit code 0.
+[T 01:05:58 13389] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13389] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-g++-9 (canonical: /usr/bin/x86_64-linux-gnu-g++-9) ====
+[T 01:05:58 13389] === Intercepted call to /usr/bin/x86_64-linux-gnu-g++-9 === 
+[T 01:05:58 13391] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13391] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus) ====
+[T 01:05:58 13391] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus === 
+[T 01:05:58 13393] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13393] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13393] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13393] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13393] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_9_13349_710161.h -quiet -dumpbase semmle_9_13349_710161.h -mtune=generic -march=x86-64 -auxbase semmle_9_13349_710161 -Wreturn-type -fmax-errors=0 -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLUCnqH.s --output-pch= /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_9_13349_710161.h.gch
+[E 01:05:58 13393] Not a compiler; exiting. Reason: --version stdout was:
+[T 01:05:58 13391] Extractor terminated with exit code 0.
+[T 01:05:58 13394] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13394] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13394] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13394] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13394] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/x86_64-linux-gnu-g++-9' -x 'c++-header' -fmax-errors=0 -Wreturn-type -o /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_9_13349_710161.h.gch /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_9_13349_710161.h
+[E 01:05:58 13394] Within classification loop; exiting.
+[T 01:05:58 13389] Extractor terminated with exit code 0.
+[T 01:05:58 13396] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13396] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-g++-9 (canonical: /usr/bin/x86_64-linux-gnu-g++-9) ====
+[T 01:05:58 13396] === Intercepted call to /usr/bin/x86_64-linux-gnu-g++-9 === 
+[T 01:05:58 13399] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13399] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus) ====
+[T 01:05:58 13399] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus === 
+[T 01:05:58 13402] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13402] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13402] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13402] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13402] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -imultiarch x86_64-linux-gnu -D_GNU_SOURCE - -quiet -dumpbase - -mtune=generic -march=x86-64 -auxbase - -Wreturn-type -fmax-errors=0 -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cclN8elb.s
+[E 01:05:58 13402] Not a compiler; exiting. Reason: --version stdout was:
+[T 01:05:58 13399] Extractor terminated with exit code 0.
+[T 01:05:58 13403] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13403] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13403] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13403] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13403] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/x86_64-linux-gnu-g++-9' -x 'c++' -fmax-errors=0 -Wreturn-type -o /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_9_13349_710161.h.gch -
+[E 01:05:58 13403] Within classification loop; exiting.
+[T 01:05:58 13396] Extractor terminated with exit code 0.
+Warning: Could not parse function type 'constexpr int __integer_pack(int)'
+Warning: Failed to find information about possible built-in _Exit
+Warning: Failed to find information about possible built-in _FUN
+Warning: Failed to find information about possible built-in _GLOBAL__N_1
+Warning: Failed to find information about possible built-in _Pragma
+Warning: Failed to find information about possible built-in _Unwind_Resume
+Warning: Failed to find information about possible built-in _Unwind_SjLj_Register
+Warning: Failed to find information about possible built-in _Unwind_SjLj_Unregister
+Warning: Failed to find information about possible built-in __VA_OPT__
+Warning: Failed to find information about possible built-in __atomic_add_fetch
+Warning: Failed to find information about possible built-in __atomic_and_fetch
+Warning: Failed to find information about possible built-in __atomic_compare_exchange_n
+Warning: Failed to find information about possible built-in __atomic_exchange_n
+Warning: Failed to find information about possible built-in __atomic_fetch_add
+Warning: Failed to find information about possible built-in __atomic_fetch_and
+Warning: Failed to find information about possible built-in __atomic_fetch_nand
+Warning: Failed to find information about possible built-in __atomic_fetch_or
+Warning: Failed to find information about possible built-in __atomic_fetch_sub
+Warning: Failed to find information about possible built-in __atomic_fetch_xor
+Warning: Failed to find information about possible built-in __atomic_load_n
+Warning: Failed to find information about possible built-in __atomic_nand_fetch
+Warning: Failed to find information about possible built-in __atomic_or_fetch
+Warning: Failed to find information about possible built-in __atomic_store_n
+Warning: Failed to find information about possible built-in __atomic_sub_fetch
+Warning: Failed to find information about possible built-in __atomic_xor_fetch
+Warning: Failed to find information about possible built-in __builtin_add_overflow
+Warning: Failed to find information about possible built-in __builtin_add_overflow_p
+Warning: Failed to find information about possible built-in __builtin_aggregate_incoming_address
+Warning: Failed to find information about possible built-in __builtin_apply_args
+Warning: Failed to find information about possible built-in __builtin_assume_aligned
+Warning: Failed to find information about possible built-in __builtin_classify_type
+Warning: Failed to find information about possible built-in __builtin_constant_p
+Warning: Failed to find information about possible built-in __builtin_eh_return
+Warning: Failed to find information about possible built-in __builtin_eh_return_data_regno
+Warning: Failed to find information about possible built-in __builtin_fpclassify
+Warning: Failed to find information about possible built-in __builtin_ia32_addpd
+Warning: Failed to find information about possible built-in __builtin_ia32_addps
+Warning: Failed to find information about possible built-in __builtin_ia32_addsd
+Warning: Failed to find information about possible built-in __builtin_ia32_addss
+Warning: Failed to find information about possible built-in __builtin_ia32_aesdec128
+Warning: Failed to find information about possible built-in __builtin_ia32_aesdeclast128
+Warning: Failed to find information about possible built-in __builtin_ia32_aesenc128
+Warning: Failed to find information about possible built-in __builtin_ia32_aesenclast128
+Warning: Failed to find information about possible built-in __builtin_ia32_aesimc128
+Warning: Failed to find information about possible built-in __builtin_ia32_aeskeygenassist128
+Warning: Failed to find information about possible built-in __builtin_ia32_andnpd
+Warning: Failed to find information about possible built-in __builtin_ia32_andnps
+Warning: Failed to find information about possible built-in __builtin_ia32_andpd
+Warning: Failed to find information about possible built-in __builtin_ia32_andps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpeqpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpeqps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpeqsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpeqss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpgepd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpgeps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpgtpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpgtps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmplepd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpleps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmplesd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpless
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpltpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpltps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpltsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpltss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpneqpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpneqps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpneqsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpneqss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpngepd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpngeps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpngtpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpngtps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnlepd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnleps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnlesd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnless
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnltpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnltps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnltsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnltss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpordpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpordps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpordsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpordss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpunordpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpunordps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpunordsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpunordss
+Warning: Failed to find information about possible built-in __builtin_ia32_comieq
+Warning: Failed to find information about possible built-in __builtin_ia32_comige
+Warning: Failed to find information about possible built-in __builtin_ia32_comigt
+Warning: Failed to find information about possible built-in __builtin_ia32_comile
+Warning: Failed to find information about possible built-in __builtin_ia32_comilt
+Warning: Failed to find information about possible built-in __builtin_ia32_comineq
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdeq
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdge
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdgt
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdle
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdlt
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdneq
+Warning: Failed to find information about possible built-in __builtin_ia32_copysignpd
+Warning: Failed to find information about possible built-in __builtin_ia32_copysignps
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtdq2pd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtdq2ps
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpd2dq
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpd2pi
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpd2ps
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpi2pd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpi2ps
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtps2dq
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtps2pd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtps2pi
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsd2si
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsd2si64
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsd2ss
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsi2sd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsi2ss
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsi642sd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsi642ss
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtss2sd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtss2si
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtss2si64
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttpd2dq
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttpd2pi
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttps2dq
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttps2pi
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttsd2si
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttsd2si64
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttss2si
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttss2si64
+Warning: Failed to find information about possible built-in __builtin_ia32_divpd
+Warning: Failed to find information about possible built-in __builtin_ia32_divps
+Warning: Failed to find information about possible built-in __builtin_ia32_divsd
+Warning: Failed to find information about possible built-in __builtin_ia32_divss
+Warning: Failed to find information about possible built-in __builtin_ia32_loadhpd
+Warning: Failed to find information about possible built-in __builtin_ia32_loadhps
+Warning: Failed to find information about possible built-in __builtin_ia32_loadlpd
+Warning: Failed to find information about possible built-in __builtin_ia32_loadlps
+Warning: Failed to find information about possible built-in __builtin_ia32_maskmovdqu
+Warning: Failed to find information about possible built-in __builtin_ia32_maskmovq
+Warning: Failed to find information about possible built-in __builtin_ia32_maxpd
+Warning: Failed to find information about possible built-in __builtin_ia32_maxps
+Warning: Failed to find information about possible built-in __builtin_ia32_maxsd
+Warning: Failed to find information about possible built-in __builtin_ia32_maxss
+Warning: Failed to find information about possible built-in __builtin_ia32_minpd
+Warning: Failed to find information about possible built-in __builtin_ia32_minps
+Warning: Failed to find information about possible built-in __builtin_ia32_minsd
+Warning: Failed to find information about possible built-in __builtin_ia32_minss
+Warning: Failed to find information about possible built-in __builtin_ia32_movhlps
+Warning: Failed to find information about possible built-in __builtin_ia32_movlhps
+Warning: Failed to find information about possible built-in __builtin_ia32_movmskpd
+Warning: Failed to find information about possible built-in __builtin_ia32_movmskps
+Warning: Failed to find information about possible built-in __builtin_ia32_movntdq
+Warning: Failed to find information about possible built-in __builtin_ia32_movntpd
+Warning: Failed to find information about possible built-in __builtin_ia32_movntps
+Warning: Failed to find information about possible built-in __builtin_ia32_movq128
+Warning: Failed to find information about possible built-in __builtin_ia32_movsd
+Warning: Failed to find information about possible built-in __builtin_ia32_movss
+Warning: Failed to find information about possible built-in __builtin_ia32_mulpd
+Warning: Failed to find information about possible built-in __builtin_ia32_mulps
+Warning: Failed to find information about possible built-in __builtin_ia32_mulsd
+Warning: Failed to find information about possible built-in __builtin_ia32_mulss
+Warning: Failed to find information about possible built-in __builtin_ia32_orpd
+Warning: Failed to find information about possible built-in __builtin_ia32_orps
+Warning: Failed to find information about possible built-in __builtin_ia32_pabsb
+Warning: Failed to find information about possible built-in __builtin_ia32_pabsd
+Warning: Failed to find information about possible built-in __builtin_ia32_pabsw
+Warning: Failed to find information about possible built-in __builtin_ia32_packssdw
+Warning: Failed to find information about possible built-in __builtin_ia32_packssdw128
+Warning: Failed to find information about possible built-in __builtin_ia32_packsswb
+Warning: Failed to find information about possible built-in __builtin_ia32_packsswb128
+Warning: Failed to find information about possible built-in __builtin_ia32_packuswb
+Warning: Failed to find information about possible built-in __builtin_ia32_packuswb128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddb
+Warning: Failed to find information about possible built-in __builtin_ia32_paddb128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddd
+Warning: Failed to find information about possible built-in __builtin_ia32_paddd128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddq
+Warning: Failed to find information about possible built-in __builtin_ia32_paddq128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddsb
+Warning: Failed to find information about possible built-in __builtin_ia32_paddsb128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddsw
+Warning: Failed to find information about possible built-in __builtin_ia32_paddsw128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddusb
+Warning: Failed to find information about possible built-in __builtin_ia32_paddusb128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddusw
+Warning: Failed to find information about possible built-in __builtin_ia32_paddusw128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddw
+Warning: Failed to find information about possible built-in __builtin_ia32_paddw128
+Warning: Failed to find information about possible built-in __builtin_ia32_palignr
+Warning: Failed to find information about possible built-in __builtin_ia32_pand
+Warning: Failed to find information about possible built-in __builtin_ia32_pand128
+Warning: Failed to find information about possible built-in __builtin_ia32_pandn
+Warning: Failed to find information about possible built-in __builtin_ia32_pandn128
+Warning: Failed to find information about possible built-in __builtin_ia32_pavgb
+Warning: Failed to find information about possible built-in __builtin_ia32_pavgb128
+Warning: Failed to find information about possible built-in __builtin_ia32_pavgw
+Warning: Failed to find information about possible built-in __builtin_ia32_pavgw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pclmulqdq128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqb
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqb128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqd
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqd128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqw
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtb
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtb128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtd
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtd128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtw
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtw128
+Warning: Failed to find information about possible built-in __builtin_ia32_phaddd
+Warning: Failed to find information about possible built-in __builtin_ia32_phaddsw
+Warning: Failed to find information about possible built-in __builtin_ia32_phaddw
+Warning: Failed to find information about possible built-in __builtin_ia32_phsubd
+Warning: Failed to find information about possible built-in __builtin_ia32_phsubsw
+Warning: Failed to find information about possible built-in __builtin_ia32_phsubw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaddubsw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaddwd
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaddwd128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaxsw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaxsw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaxub
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaxub128
+Warning: Failed to find information about possible built-in __builtin_ia32_pminsw
+Warning: Failed to find information about possible built-in __builtin_ia32_pminsw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pminub
+Warning: Failed to find information about possible built-in __builtin_ia32_pminub128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmovmskb
+Warning: Failed to find information about possible built-in __builtin_ia32_pmovmskb128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhrsw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhuw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhuw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmullw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmullw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmuludq
+Warning: Failed to find information about possible built-in __builtin_ia32_pmuludq128
+Warning: Failed to find information about possible built-in __builtin_ia32_por
+Warning: Failed to find information about possible built-in __builtin_ia32_por128
+Warning: Failed to find information about possible built-in __builtin_ia32_psadbw
+Warning: Failed to find information about possible built-in __builtin_ia32_psadbw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pshufb
+Warning: Failed to find information about possible built-in __builtin_ia32_pshufd
+Warning: Failed to find information about possible built-in __builtin_ia32_pshufhw
+Warning: Failed to find information about possible built-in __builtin_ia32_pshuflw
+Warning: Failed to find information about possible built-in __builtin_ia32_pshufw
+Warning: Failed to find information about possible built-in __builtin_ia32_psignb
+Warning: Failed to find information about possible built-in __builtin_ia32_psignd
+Warning: Failed to find information about possible built-in __builtin_ia32_psignw
+Warning: Failed to find information about possible built-in __builtin_ia32_pslld
+Warning: Failed to find information about possible built-in __builtin_ia32_pslld128
+Warning: Failed to find information about possible built-in __builtin_ia32_pslldi
+Warning: Failed to find information about possible built-in __builtin_ia32_pslldi128
+Warning: Failed to find information about possible built-in __builtin_ia32_pslldqi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psllq
+Warning: Failed to find information about possible built-in __builtin_ia32_psllq128
+Warning: Failed to find information about possible built-in __builtin_ia32_psllqi
+Warning: Failed to find information about possible built-in __builtin_ia32_psllqi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psllw
+Warning: Failed to find information about possible built-in __builtin_ia32_psllw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psllwi
+Warning: Failed to find information about possible built-in __builtin_ia32_psllwi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrad
+Warning: Failed to find information about possible built-in __builtin_ia32_psrad128
+Warning: Failed to find information about possible built-in __builtin_ia32_psradi
+Warning: Failed to find information about possible built-in __builtin_ia32_psradi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psraw
+Warning: Failed to find information about possible built-in __builtin_ia32_psraw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrawi
+Warning: Failed to find information about possible built-in __builtin_ia32_psrawi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrld
+Warning: Failed to find information about possible built-in __builtin_ia32_psrld128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrldi
+Warning: Failed to find information about possible built-in __builtin_ia32_psrldi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrldqi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlq
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlq128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlqi
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlqi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlw
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlwi
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlwi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubb
+Warning: Failed to find information about possible built-in __builtin_ia32_psubb128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubd
+Warning: Failed to find information about possible built-in __builtin_ia32_psubd128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubq
+Warning: Failed to find information about possible built-in __builtin_ia32_psubq128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubsb
+Warning: Failed to find information about possible built-in __builtin_ia32_psubsb128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubsw
+Warning: Failed to find information about possible built-in __builtin_ia32_psubsw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubusb
+Warning: Failed to find information about possible built-in __builtin_ia32_psubusb128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubusw
+Warning: Failed to find information about possible built-in __builtin_ia32_psubusw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubw
+Warning: Failed to find information about possible built-in __builtin_ia32_psubw128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhbw
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhbw128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhdq
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhdq128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhqdq128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhwd
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhwd128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklbw
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklbw128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckldq
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckldq128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklqdq128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklwd
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklwd128
+Warning: Failed to find information about possible built-in __builtin_ia32_pxor
+Warning: Failed to find information about possible built-in __builtin_ia32_pxor128
+Warning: Failed to find information about possible built-in __builtin_ia32_rcpps
+Warning: Failed to find information about possible built-in __builtin_ia32_rcpss
+Warning: Failed to find information about possible built-in __builtin_ia32_rsqrtps
+Warning: Failed to find information about possible built-in __builtin_ia32_rsqrtps_nr
+Warning: Failed to find information about possible built-in __builtin_ia32_rsqrtss
+Warning: Failed to find information about possible built-in __builtin_ia32_shufpd
+Warning: Failed to find information about possible built-in __builtin_ia32_shufps
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtpd
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtps
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtps_nr
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtsd
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtss
+Warning: Failed to find information about possible built-in __builtin_ia32_storedqu
+Warning: Failed to find information about possible built-in __builtin_ia32_storehps
+Warning: Failed to find information about possible built-in __builtin_ia32_storelps
+Warning: Failed to find information about possible built-in __builtin_ia32_storeupd
+Warning: Failed to find information about possible built-in __builtin_ia32_storeups
+Warning: Failed to find information about possible built-in __builtin_ia32_subpd
+Warning: Failed to find information about possible built-in __builtin_ia32_subps
+Warning: Failed to find information about possible built-in __builtin_ia32_subsd
+Warning: Failed to find information about possible built-in __builtin_ia32_subss
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomieq
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomige
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomigt
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomile
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomilt
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomineq
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdeq
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdge
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdgt
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdle
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdlt
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdneq
+Warning: Failed to find information about possible built-in __builtin_ia32_unpckhpd
+Warning: Failed to find information about possible built-in __builtin_ia32_unpckhps
+Warning: Failed to find information about possible built-in __builtin_ia32_unpcklpd
+Warning: Failed to find information about possible built-in __builtin_ia32_unpcklps
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v16qi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v2df
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v2di
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v2si
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v4hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v4sf
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v4si
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v8hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_pack_sfix
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_set_v4hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_set_v8hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vgf2p8affineinvqb_v16qi
+Warning: Failed to find information about possible built-in __builtin_ia32_vgf2p8affineqb_v16qi
+Warning: Failed to find information about possible built-in __builtin_ia32_vgf2p8mulb_v16qi
+Warning: Failed to find information about possible built-in __builtin_ia32_xorpd
+Warning: Failed to find information about possible built-in __builtin_ia32_xorps
+Warning: Failed to find information about possible built-in __builtin_isfinite
+Warning: Failed to find information about possible built-in __builtin_isgreater
+Warning: Failed to find information about possible built-in __builtin_isgreaterequal
+Warning: Failed to find information about possible built-in __builtin_isinf_sign
+Warning: Failed to find information about possible built-in __builtin_isless
+Warning: Failed to find information about possible built-in __builtin_islessequal
+Warning: Failed to find information about possible built-in __builtin_islessgreater
+Warning: Failed to find information about possible built-in __builtin_isnormal
+Warning: Failed to find information about possible built-in __builtin_isunordered
+Warning: Failed to find information about possible built-in __builtin_launder
+Warning: Failed to find information about possible built-in __builtin_mul_overflow
+Warning: Failed to find information about possible built-in __builtin_mul_overflow_p
+Warning: Failed to find information about possible built-in __builtin_next_arg
+Warning: Failed to find information about possible built-in __builtin_prefetch
+Warning: Failed to find information about possible built-in __builtin_saveregs
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value_1
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value_16
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value_2
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value_4
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value_8
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value_ptr
+Warning: Failed to find information about possible built-in __builtin_sub_overflow
+Warning: Failed to find information about possible built-in __builtin_sub_overflow_p
+Warning: Failed to find information about possible built-in __builtin_sysv_va_start
+Warning: Failed to find information about possible built-in __closure
+Warning: Failed to find information about possible built-in __cxa_pure_virtual
+Warning: Failed to find information about possible built-in __cxxabiv1
+Warning: Failed to find information about possible built-in __delta
+Warning: Failed to find information about possible built-in __divmodti4
+Warning: Failed to find information about possible built-in __for_begin
+Warning: Failed to find information about possible built-in __for_end
+Warning: Failed to find information about possible built-in __for_range
+Warning: Failed to find information about possible built-in __fprintf_chk
+Warning: Failed to find information about possible built-in __has_attribute
+Warning: Failed to find information about possible built-in __has_cpp_attribute
+Warning: Failed to find information about possible built-in __in_chrg
+Warning: Failed to find information about possible built-in __memcpy_chk
+Warning: Failed to find information about possible built-in __memmove_chk
+Warning: Failed to find information about possible built-in __mempcpy_chk
+Warning: Failed to find information about possible built-in __memset_chk
+Warning: Failed to find information about possible built-in __pfn
+Warning: Failed to find information about possible built-in __printf_chk
+Warning: Failed to find information about possible built-in __snprintf_chk
+Warning: Failed to find information about possible built-in __sprintf_chk
+Warning: Failed to find information about possible built-in __stpcpy_chk
+Warning: Failed to find information about possible built-in __stpncpy_chk
+Warning: Failed to find information about possible built-in __strcat_chk
+Warning: Failed to find information about possible built-in __strcpy_chk
+Warning: Failed to find information about possible built-in __strncat_chk
+Warning: Failed to find information about possible built-in __strncpy_chk
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch
+Warning: Failed to find information about possible built-in __udivmodti4
+Warning: Failed to find information about possible built-in __vfprintf_chk
+Warning: Failed to find information about possible built-in __vprintf_chk
+Warning: Failed to find information about possible built-in __vsnprintf_chk
+Warning: Failed to find information about possible built-in __vsprintf_chk
+Warning: Failed to find information about possible built-in __vtbl_ptr_type
+Warning: Failed to find information about possible built-in __vtt_parm
+Warning: Failed to find information about possible built-in _exit
+Warning: Failed to find information about possible built-in _vptr
+Warning: Ignored 432 possible built-ins
+[T 01:05:58 13404] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13404] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-g++-9 (canonical: /usr/bin/x86_64-linux-gnu-g++-9) ====
+[T 01:05:58 13404] === Intercepted call to /usr/bin/x86_64-linux-gnu-g++-9 === 
+[T 01:05:58 13406] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13406] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus) ====
+[T 01:05:58 13406] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus === 
+[T 01:05:58 13408] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13408] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13408] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13408] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13408] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_11_13349_933056.c -quiet -dumpbase semmle_11_13349_933056.c -mtune=generic -march=x86-64 -auxbase-strip /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_12_13349_933074.o -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccHL6AOP.s
+[E 01:05:58 13408] Not a compiler; exiting. Reason: --version stdout was:
+[T 01:05:58 13406] Extractor terminated with exit code 0.
+[T 01:05:58 13409] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[T 01:05:58 13409] ==== Candidate to intercept: as (canonical: as) ====
+[T 01:05:58 13409] Will try to resolve as in path /home/karan/.local/bin:/home/karan/Documents/codeql-home/codeql:/home/karan/.local/bin:/home/karan/Documents/codeql-home/codeql:/home/karan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 01:05:58 13409]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13409]  -> path lookup for as as /home/karan/Documents/codeql-home/codeql/as...
+[T 01:05:58 13409]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13409]  -> path lookup for as as /home/karan/Documents/codeql-home/codeql/as...
+[T 01:05:58 13409]  -> path lookup for as as /home/karan/.local/bin/as...
+[T 01:05:58 13409]  -> path lookup for as as /usr/local/sbin/as...
+[T 01:05:58 13409]  -> path lookup for as as /usr/local/bin/as...
+[T 01:05:58 13409]  -> path lookup for as as /usr/sbin/as...
+[T 01:05:58 13409]  -> path lookup for as as /usr/bin/as...
+[T 01:05:58 13409] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 01:05:58 13409] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 01:05:58 13410] Attempting to switch stdout/stderr to 6...
+[T 01:05:58 13410] Reading configuration file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tracing/compiler-tracing8411763151118072685.spec...
+[E 01:05:58 13410] CodeQL C/C++ Extractor 1.27.0-SNAPSHOT
+[E 01:05:58 13410] Current directory: /home/karan/Documents/capstone_2/vector_gen/some_project
+[E 01:05:58 13410] Command: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/x86_64-linux-gnu-g++-9' -x 'c++' -o /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_12_13349_933074.o -c /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/tmp//semmle_11_13349_933056.c
+[E 01:05:58 13410] Within classification loop; exiting.
+[T 01:05:58 13404] Extractor terminated with exit code 0.
+[E 01:05:58 13349] Processed command line: /home/karan/Documents/codeql-home/codeql/cpp/tools/linux64/extractor --trapfolder /home/karan/Documents/capstone_2/vector_gen/some_project/_db/trap/cpp --src_archive /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src --mimic_config /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/compiler_mimic_cache/95890ef0f04a --executable_filename /home/karan/Documents/capstone_2/vector_gen/some_project/a.out -w --error_limit 1000 --disable_system_macros --variadic_macros '--g++' --gnu_version 90300 --builtin_functions_file /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/compiler_mimic_cache/builtins_49a4f7401c27 --target linux_x86_64 -D__SSP_STRONG__=3 '-D__DBL_MIN_EXP__=(-1021)' -D__FLT32X_MAX_EXP__=1024 -D__cpp_attributes=200809 -D__UINT_LEAST16_MAX__=0xffff -D__ATOMIC_ACQUIRE=2 -D__FLT128_MAX_10_EXP__=4932 -D__FLT_MIN__=1.17549435082228750796873653722224568e-38F -D__GCC_IEC_559_COMPLEX=2 -D__cpp_aggregate_nsdmi=201304 '-D__UINT_LEAST8_TYPE__=unsigned char' -D__SIZEOF_FLOAT80__=16 '-D__INTMAX_C(c)=c ## L' -D__CHAR_BIT__=8 -D__UINT8_MAX__=0xff -D__WINT_MAX__=0xffffffffU '-D__FLT32_MIN_EXP__=(-125)' -D__cpp_static_assert=200410 -D__ORDER_LITTLE_ENDIAN__=1234 -D__SIZE_MAX__=0xffffffffffffffffUL -D__WCHAR_MAX__=0x7fffffff -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4=1 '-D__DBL_DENORM_MIN__=double(4.94065645841246544176568792868221372e-324L)' -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8=1 -D__GCC_ATOMIC_CHAR_LOCK_FREE=2 -D__GCC_IEC_559=2 -D__FLT32X_DECIMAL_DIG__=17 -D__FLT_EVAL_METHOD__=0 -D__unix__=1 -D__cpp_binary_literals=201304 -D__FLT64_DECIMAL_DIG__=17 -D__CET__=3 -D__GCC_ATOMIC_CHAR32_T_LOCK_FREE=2 -D__x86_64=1 -D__cpp_variadic_templates=200704 -D__UINT_FAST64_MAX__=0xffffffffffffffffUL -D__SIG_ATOMIC_TYPE__=int '-D__DBL_MIN_10_EXP__=(-307)' -D__FINITE_MATH_ONLY__=0 -D__cpp_variable_templates=201304 -D__FLT32_HAS_DENORM__=1 -D__UINT_FAST8_MAX__=0xff -D__cpp_rvalue_reference=200610 '-D__has_include(STR)=__has_include__(STR)' -D__DEC64_MAX_EXP__=385 '-D__INT8_C(c)=c' -D__INT_LEAST8_WIDTH__=8 -D__UINT_LEAST64_MAX__=0xffffffffffffffffUL -D__SHRT_MAX__=0x7fff '-D__LDBL_MAX__=1.18973149535723176502126385303097021e+4932L' -D__FLT64X_MAX_10_EXP__=4932 -D__UINT_LEAST8_MAX__=0xff -D__GCC_ATOMIC_BOOL_LOCK_FREE=2 -D__FLT128_DENORM_MIN__=6.47517511943802511092443895822764655e-4966F128 '-D__UINTMAX_TYPE__=long unsigned int' -D__linux=1 -D__DEC32_EPSILON__=1E-6DF -D__FLT_EVAL_METHOD_TS_18661_3__=0 -D__unix=1 -D__UINT32_MAX__=0xffffffffU -D__GXX_EXPERIMENTAL_CXX0X__=1 -D__LDBL_MAX_EXP__=16384 '-D__FLT128_MIN_EXP__=(-16381)' -D__WINT_MIN__=0U -D__linux__=1 '-D__FLT128_MIN_10_EXP__=(-4931)' -D__INT_LEAST16_WIDTH__=16 -D__SCHAR_MAX__=0x7f -D__FLT128_MANT_DIG__=113 '-D__WCHAR_MIN__=(-__WCHAR_MAX__ - 1)' '-D__INT64_C(c)=c ## L' -D__DBL_DIG__=15 -D__GCC_ATOMIC_POINTER_LOCK_FREE=2 -D__FLT64X_MANT_DIG__=64 -D__SIZEOF_INT__=4 -D__SIZEOF_POINTER__=8 -D__GCC_ATOMIC_CHAR16_T_LOCK_FREE=2 -D__USER_LABEL_PREFIX__= -D__FLT64X_EPSILON__=1.08420217248550443400745280086994171e-19F64x -D__LDBL_HAS_INFINITY__=1 -D__FLT32_DIG__=6 -D__FLT_EPSILON__=1.19209289550781250000000000000000000e-7F -D__GXX_WEAK__=1 -D__SHRT_WIDTH__=16 -D__LDBL_MIN__=3.36210314311209350626267781732175260e-4932L -D__DEC32_MAX__=9.999999E96DF -D__cpp_threadsafe_static_init=200806 -D__FLT64X_DENORM_MIN__=3.64519953188247460252840593361941982e-4951F64x -D__FLT32X_HAS_INFINITY__=1 -D__INT32_MAX__=0x7fffffff -D__INT_WIDTH__=32 -D__SIZEOF_LONG__=8 -D__STDC_IEC_559__=1 -D__STDC_ISO_10646__=201706L '-D__UINT16_C(c)=c' -D__PTRDIFF_WIDTH__=64 -D__DECIMAL_DIG__=21 -D__FLT64_EPSILON__=2.22044604925031308084726333618164062e-16F64 -D__gnu_linux__=1 -D__INTMAX_WIDTH__=64 '-D__FLT64_MIN_EXP__=(-1021)' '-D__has_include_next(STR)=__has_include_next__(STR)' '-D__FLT64X_MIN_10_EXP__=(-4931)' -D__LDBL_HAS_QUIET_NAN__=1 -D__FLT64_MANT_DIG__=53 -D__GXX_RTTI=1 -D__pie__=2 -D__MMX__=1 -D__cpp_delegating_constructors=200604 -D__FLT_HAS_DENORM__=1 -D__SIZEOF_LONG_DOUBLE__=16 -D__BIGGEST_ALIGNMENT__=16 -D__STDC_UTF_16__=1 -D__FLT64_MAX_10_EXP__=308 -D__FLT32_HAS_INFINITY__=1 '-D__DBL_MAX__=double(1.79769313486231570814527423731704357e+308L)' -D__cpp_raw_strings=200710 -D__INT_FAST32_MAX__=0x7fffffffffffffffL -D__DBL_HAS_INFINITY__=1 -D__HAVE_SPECULATION_SAFE_VALUE=1 '-D__DEC32_MIN_EXP__=(-94)' -D__INTPTR_WIDTH__=64 -D__FLT32X_HAS_DENORM__=1 '-D__INT_FAST16_TYPE__=long int' -D__LDBL_HAS_DENORM__=1 -D__cpp_ref_qualifiers=200710 -D__DEC128_MAX__=9.999999999999999999999999999999999E6144DL -D__INT_LEAST32_MAX__=0x7fffffff -D__DEC32_MIN__=1E-95DF -D__DEPRECATED=1 -D__cpp_rvalue_references=200610 -D__DBL_MAX_EXP__=1024 -D__WCHAR_WIDTH__=32 '-D__FLT32_MAX__=3.40282346638528859811704183484516925e+38F32' -D__DEC128_EPSILON__=1E-33DL -D__SSE2_MATH__=1 -D__ATOMIC_HLE_RELEASE=131072 -D__PTRDIFF_MAX__=0x7fffffffffffffffL -D__amd64=1 -D__ATOMIC_HLE_ACQUIRE=65536 -D__FLT32_HAS_QUIET_NAN__=1 -D__LONG_LONG_MAX__=0x7fffffffffffffffLL -D__SIZEOF_SIZE_T__=8 -D__cpp_nsdmi=200809 '-D__FLT64X_MIN_EXP__=(-16381)' -D__SIZEOF_WINT_T__=4 -D__LONG_LONG_WIDTH__=64 -D__cpp_initializer_lists=200806 -D__FLT32_MAX_EXP__=128 -D__cpp_hex_float=201603 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -D__GXX_ABI_VERSION=1013 -D__FLT128_HAS_INFINITY__=1 '-D__FLT_MIN_EXP__=(-125)' -D__cpp_lambdas=200907 -D__FLT64X_HAS_QUIET_NAN__=1 '-D__INT_FAST64_TYPE__=long int' -D__FLT64_DENORM_MIN__=4.94065645841246544176568792868221372e-324F64 '-D__DBL_MIN__=double(2.22507385850720138309023271733240406e-308L)' -D__PIE__=2 -D__LP64__=1 -D__FLT32X_EPSILON__=2.22044604925031308084726333618164062e-16F32x -D__DECIMAL_BID_FORMAT__=1 '-D__FLT64_MIN_10_EXP__=(-307)' -D__FLT64X_DECIMAL_DIG__=21 -D__DEC128_MIN__=1E-6143DL -D__REGISTER_PREFIX__= -D__UINT16_MAX__=0xffff -D__FLT32_MIN__=1.17549435082228750796873653722224568e-38F32 '-D__UINT8_TYPE__=unsigned char' -D__NO_INLINE__=1 -D__FLT_MANT_DIG__=24 -D__LDBL_DECIMAL_DIG__=21 '-D__UINT64_C(c)=c ## UL' -D__cpp_unicode_characters=200704 -D_STDC_PREDEF_H=1 -D__cpp_decltype_auto=201304 -D__GCC_ATOMIC_INT_LOCK_FREE=2 -D__FLT128_MAX_EXP__=16384 -D__FLT32_MANT_DIG__=24 -D__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__STDC_IEC_559_COMPLEX__=1 -D__FLT128_HAS_DENORM__=1 -D__FLT128_DIG__=33 -D__SCHAR_WIDTH__=8 '-D__INT32_C(c)=c' -D__DEC64_EPSILON__=1E-15DD -D__ORDER_PDP_ENDIAN__=3412 '-D__DEC128_MIN_EXP__=(-6142)' -D__FLT32_MAX_10_EXP__=38 '-D__INT_FAST32_TYPE__=long int' '-D__UINT_LEAST16_TYPE__=short unsigned int' -D__FLT64X_HAS_INFINITY__=1 -Dunix=1 -D__DBL_HAS_DENORM__=1 -D__INT16_MAX__=0x7fff -D__cpp_rtti=199711 '-D__SIZE_TYPE__=long unsigned int' -D__UINT64_MAX__=0xffffffffffffffffUL -D__FLT64X_DIG__=18 '-D__INT8_TYPE__=signed char' -D__cpp_digit_separators=201309 -D__ELF__=1 -D__GCC_ASM_FLAG_OUTPUTS__=1 -D__FLT_RADIX__=2 '-D__INT_LEAST16_TYPE__=short int' -D__LDBL_EPSILON__=1.08420217248550443400745280086994171e-19L '-D__UINTMAX_C(c)=c ## UL' -D__GLIBCXX_BITSIZE_INT_N_0=128 -D__k8=1 -D__SIG_ATOMIC_MAX__=0x7fffffff -D__GCC_ATOMIC_WCHAR_T_LOCK_FREE=2 -D__SIZEOF_PTRDIFF_T__=8 -D__FLT32X_MANT_DIG__=53 -D__x86_64__=1 '-D__FLT32X_MIN_EXP__=(-1021)' -D__DEC32_SUBNORMAL_MIN__=0.000001E-95DF -D__INT_FAST16_MAX__=0x7fffffffffffffffL -D__FLT64_DIG__=15 -D__UINT_FAST32_MAX__=0xffffffffffffffffUL '-D__UINT_LEAST64_TYPE__=long unsigned int' -D__FLT_HAS_QUIET_NAN__=1 -D__FLT_MAX_10_EXP__=38 -D__LONG_MAX__=0x7fffffffffffffffL -D__FLT64X_HAS_DENORM__=1 -D__DEC128_SUBNORMAL_MIN__=0.000000000000000000000000000000001E-6143DL -D__FLT_HAS_INFINITY__=1 -D__cpp_unicode_literals=200710 '-D__UINT_FAST16_TYPE__=long unsigned int' -D__DEC64_MAX__=9.999999999999999E384DD -D__INT_FAST32_WIDTH__=64 -D__PRAGMA_REDEFINE_EXTNAME=1 -D__SIZE_WIDTH__=64 -D__SEG_FS=1 -D__INT_LEAST16_MAX__=0x7fff -D__DEC64_MANT_DIG__=16 -D__INT64_MAX__=0x7fffffffffffffffL -D__UINT_LEAST32_MAX__=0xffffffffU -D__SEG_GS=1 -D__FLT32_DENORM_MIN__=1.40129846432481707092372958328991613e-45F32 -D__GCC_ATOMIC_LONG_LOCK_FREE=2 -D__SIG_ATOMIC_WIDTH__=32 '-D__INT_LEAST64_TYPE__=long int' '-D__INT16_TYPE__=short int' '-D__INT_LEAST8_TYPE__=signed char' -D__DEC32_MAX_EXP__=97 -D__INT_FAST8_MAX__=0x7f '-D__FLT128_MAX__=1.18973149535723176508575932662800702e+4932F128' -D__INTPTR_MAX__=0x7fffffffffffffffL -D__cpp_sized_deallocation=201309 -Dlinux=1 -D__cpp_range_based_for=200907 -D__FLT64_HAS_QUIET_NAN__=1 '-D__FLT32_MIN_10_EXP__=(-37)' -D__SSE2__=1 -D__EXCEPTIONS=1 -D__LDBL_MANT_DIG__=64 -D__DBL_HAS_QUIET_NAN__=1 -D__FLT64_HAS_INFINITY__=1 '-D__FLT64X_MAX__=1.18973149535723176502126385303097021e+4932F64x' '-D__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)' -D__code_model_small__=1 -D__cpp_return_type_deduction=201304 -D__k8__=1 '-D__INTPTR_TYPE__=long int' '-D__UINT16_TYPE__=short unsigned int' -D__WCHAR_TYPE__=int -D__SIZEOF_FLOAT__=4 -D__pic__=2 -D__UINTPTR_MAX__=0xffffffffffffffffUL -D__INT_FAST64_WIDTH__=64 '-D__DEC64_MIN_EXP__=(-382)' -D__cpp_decltype=200707 -D__FLT32_DECIMAL_DIG__=9 -D__INT_FAST64_MAX__=0x7fffffffffffffffL -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -D__FLT_DIG__=6 -D__FLT64X_MAX_EXP__=16384 '-D__UINT_FAST64_TYPE__=long unsigned int' -D__INT_MAX__=0x7fffffff -D__amd64__=1 '-D__INT64_TYPE__=long int' -D__FLT_MAX_EXP__=128 -D__ORDER_BIG_ENDIAN__=4321 -D__DBL_MANT_DIG__=53 -D__cpp_inheriting_constructors=201511 -D__SIZEOF_FLOAT128__=16 -D__INT_LEAST64_MAX__=0x7fffffffffffffffL -D__DEC64_MIN__=1E-383DD '-D__WINT_TYPE__=unsigned int' '-D__UINT_LEAST32_TYPE__=unsigned int' -D__SIZEOF_SHORT__=2 -D__SSE__=1 '-D__LDBL_MIN_EXP__=(-16381)' '-D__FLT64_MAX__=1.79769313486231570814527423731704357e+308F64' -D__WINT_WIDTH__=32 -D__INT_LEAST8_MAX__=0x7f -D__FLT32X_MAX_10_EXP__=308 -D__SIZEOF_INT128__=16 -D__LDBL_MAX_10_EXP__=4932 -D__ATOMIC_RELAXED=0 '-D__DBL_EPSILON__=double(2.22044604925031308084726333618164062e-16L)' -D__FLT128_MIN__=3.36210314311209350626267781732175260e-4932F128 -D_LP64=1 '-D__UINT8_C(c)=c' -D__FLT64_MAX_EXP__=1024 -D__INT_LEAST32_TYPE__=int -D__SIZEOF_WCHAR_T__=4 -D__FLT128_HAS_QUIET_NAN__=1 '-D__INT_FAST8_TYPE__=signed char' -D__FLT64X_MIN__=3.36210314311209350626267781732175260e-4932F64x -D__FLT64_HAS_DENORM__=1 -D__FLT32_EPSILON__=1.19209289550781250000000000000000000e-7F32 -D__DBL_DECIMAL_DIG__=17 -D__STDC_UTF_32__=1 -D__INT_FAST8_WIDTH__=8 -D__FXSR__=1 -D__DEC_EVAL_METHOD__=2 '-D__FLT32X_MAX__=1.79769313486231570814527423731704357e+308F32x' -D__cpp_runtime_arrays=198712 '-D__UINT64_TYPE__=long unsigned int' '-D__UINT32_C(c)=c ## U' -D__INTMAX_MAX__=0x7fffffffffffffffL -D__cpp_alias_templates=200704 -D__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__FLT_DENORM_MIN__=1.40129846432481707092372958328991613e-45F -D__INT8_MAX__=0x7f -D__LONG_WIDTH__=64 -D__PIC__=2 '-D__UINT_FAST32_TYPE__=long unsigned int' '-D__FLT_MAX__=3.40282346638528859811704183484516925e+38F' -D__cpp_constexpr=201304 -D__INT32_TYPE__=int -D__SIZEOF_DOUBLE__=8 -D__cpp_exceptions=199711 '-D__FLT_MIN_10_EXP__=(-37)' -D__FLT64_MIN__=2.22507385850720138309023271733240406e-308F64 -D__INT_LEAST32_WIDTH__=32 '-D__INTMAX_TYPE__=long int' -D__DEC128_MAX_EXP__=6145 -D__FLT32X_HAS_QUIET_NAN__=1 -D__ATOMIC_CONSUME=1 -D__GLIBCXX_TYPE_INT_N_0=__int128 -D__INT_FAST16_WIDTH__=64 -D__UINTMAX_MAX__=0xffffffffffffffffUL -D__DEC32_MANT_DIG__=7 -D__FLT32X_DENORM_MIN__=4.94065645841246544176568792868221372e-324F32x -D__DBL_MAX_10_EXP__=308 -D__LDBL_DENORM_MIN__=3.64519953188247460252840593361941982e-4951L '-D__INT16_C(c)=c' -D__cpp_generic_lambdas=201304 -D__FLT32X_DIG__=15 '-D__PTRDIFF_TYPE__=long int' -D__ATOMIC_SEQ_CST=5 '-D__UINT32_TYPE__=unsigned int' '-D__FLT32X_MIN_10_EXP__=(-307)' '-D__UINTPTR_TYPE__=long unsigned int' -D__DEC64_SUBNORMAL_MIN__=0.000000000000001E-383DD -D__DEC128_MANT_DIG__=34 '-D__LDBL_MIN_10_EXP__=(-4931)' -D__FLT128_EPSILON__=1.92592994438723585305597794258492732e-34F128 -D__SSE_MATH__=1 -D__SIZEOF_LONG_LONG__=8 -D__cpp_user_defined_literals=200809 -D__FLT128_DECIMAL_DIG__=36 -D__GCC_ATOMIC_LLONG_LOCK_FREE=2 -D__FLT32X_MIN__=2.22507385850720138309023271733240406e-308F32x -D__LDBL_DIG__=18 -D__FLT_DECIMAL_DIG__=9 -D__UINT_FAST16_MAX__=0xffffffffffffffffUL -D__GCC_ATOMIC_SHORT_LOCK_FREE=2 -D__INT_LEAST64_WIDTH__=64 '-D__UINT_FAST8_TYPE__=unsigned char' -D_GNU_SOURCE=1 -D__cpp_init_captures=201304 -D__ATOMIC_ACQ_REL=4 -D__ATOMIC_RELEASE=3 '-I/usr/include/c++/9' '-I/usr/include/x86_64-linux-gnu/c++/9' '-I/usr/include/c++/9/backward' -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -- state_strategy.cpp
+[E 01:05:58 13349] Starting compilation TRAP /home/karan/Documents/capstone_2/vector_gen/some_project/_db/trap/cpp/compilations/34/449469_0.trap.br
+"/usr/include/x86_64-linux-gnu/bits/floatn.h", line 75: error: 128-bit floating-point types are not supported in this configuration
+  typedef _Complex float __cfloat128 __attribute__ ((__mode__ (__TC__)));
+                                                     ^
+
+"/usr/include/x86_64-linux-gnu/bits/floatn.h", line 87: error: invalid combination of type specifiers
+  typedef __float128 _Float128;
+                     ^
+
+"/usr/include/x86_64-linux-gnu/bits/floatn-common.h", line 214: error: invalid combination of type specifiers
+  typedef float _Float32;
+                ^
+
+"/usr/include/x86_64-linux-gnu/bits/floatn-common.h", line 251: error: invalid combination of type specifiers
+  typedef double _Float64;
+                 ^
+
+"/usr/include/x86_64-linux-gnu/bits/floatn-common.h", line 268: error: invalid combination of type specifiers
+  typedef double _Float32x;
+                 ^
+
+"/usr/include/x86_64-linux-gnu/bits/floatn-common.h", line 285: error: invalid combination of type specifiers
+  typedef long double _Float64x;
+                      ^
+
+[E 01:05:59 13349] Creating trap tarball /home/karan/Documents/capstone_2/vector_gen/some_project/_db/trap/cpp/tarballs/home/karan/Documents/capstone_2/vector_gen/some_project/state_strategy.cpp.06ab0ee4_0.trap.tar.br
+[E 01:05:59 13349] Emitting trap files for state_strategy.cpp
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 01:05:59 13349] Opening existencedb in /home/karan/Documents/capstone_2/vector_gen/some_project/_db/working/existencedb/db
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/stdc-predef.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/wordsize.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/long-double.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/sys/cdefs.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/gnu/stubs.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/features.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/memoryfwd.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/stringfwd.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/floatn-common.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/floatn.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/wchar.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/wint_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/FILE.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/wchar.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/cwchar
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/postypes.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/iosfwd
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/exception.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/exception_defines.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/cxxabi_init_exception.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/hash_bytes.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/typeinfo
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/exception
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/new
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/exception_ptr.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/concept_check.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/type_traits
+[E 01:05:59 13349] Warning[extractor-c++]: In index_enk_operation: Unexpected eok_lvalue.
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/move.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/nested_exception.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/exception
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/functexcept.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/cpp_type_traits.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/ext/type_traits.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/ext/numeric_traits.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/stl_pair.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/stl_iterator_base_types.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/debug/assertions.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/stl_iterator_base_funcs.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/ptr_traits.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/stl_iterator.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/debug/debug.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/predefined_ops.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/stl_algobase.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/cwchar
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/timesize.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/typesizes.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/time64.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/stdint.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/cstdint
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/char_traits.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/locale.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/locale.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/clocale
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/endianness.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/endian.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/ctype.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/cctype
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/localefwd.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/time_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/sched.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/cpu-set.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/sched.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/timex.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/time.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/time.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/struct_mutex.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/setjmp.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/pthread.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/ext/atomicity.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/ext/new_allocator.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/allocator.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/cxxabi_forced.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/ostream_insert.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/backward/binders.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/stl_function.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/initializer_list
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/range_access.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/alloc_traits.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/ext/alloc_traits.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/waitflags.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/waitstatus.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/byteswap.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/endian.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/wordsize.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/select.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/sys/select.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/sys/types.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/alloca.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/stdlib.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/std_abs.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/cstdlib
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/stdio.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/cstdio
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/asm-generic/errno-base.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/asm-generic/errno.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/asm/errno.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/linux/errno.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/errno.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/types/error_t.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/errno.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/cerrno
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/ext/string_conversions.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/functional_hash.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/basic_string.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/basic_string.tcc
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/string
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/locale_classes.tcc
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/locale_classes.h
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/cerrno
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/stdexcept
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/system_error
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/ios_base.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/streambuf.tcc
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/streambuf
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/wctype.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/cwctype
+[E 01:05:59 13349] Already archived /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/cctype
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/streambuf_iterator.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/locale_facets.tcc
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/locale_facets.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/basic_ios.tcc
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/basic_ios.h
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/ios
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/ostream.tcc
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/ostream
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/bits/istream.tcc
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/istream
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/usr/include/c++/9/iostream
+[E 01:05:59 13349] Archiving /home/karan/Documents/capstone_2/vector_gen/some_project/_db/src/home/karan/Documents/capstone_2/vector_gen/some_project/state_strategy.cpp
+[E 01:05:59 13349] Warning[extractor-c++]: In index_enk_builtin_operation: Unrecognized builtin operation kind 54 (__is_assignable).
+[E 01:05:59 13349] Warning[extractor-c++]: In index_enk_builtin_operation: Unrecognized builtin operation kind 54 (__is_assignable).
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In index_stmk_decl: No source sequence entry for declaration statement.
+[E 01:05:59 13349] Warning[extractor-c++]: In canonicalise_path: realpath failed
+[E 01:05:59 13349] Wrote 1640 files to /home/karan/Documents/capstone_2/vector_gen/some_project/_db/trap/cpp/tarballs/home/karan/Documents/capstone_2/vector_gen/some_project/state_strategy.cpp.06ab0ee4_0.trap.tar.br
+6 errors detected in the compilation of "state_strategy.cpp".
+[E 01:05:59 13349] Finished compilation TRAP /home/karan/Documents/capstone_2/vector_gen/some_project/_db/trap/cpp/compilations/34/449469_0.trap.br
+[T 01:05:59 13329] Extractor terminated with exit code 1.
