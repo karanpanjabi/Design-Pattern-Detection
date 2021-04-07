@@ -5,3 +5,7 @@ predicate checkPath(Element el) {
 }
 
 predicate isClassAbstract(Class c) { c.isAbstract() }
+
+predicate getAllFunctions(Function f) {
+    checkPath(f)
+}
