@@ -17,6 +17,11 @@ def run_query(query_file, project_path = os.getcwd()):
     cmd(f"codeql database run-queries {db_folder} {query_file}")
 
 if __name__ == '__main__':
+
+    if len(sys.argv) == 1:
+        print("run_query.py <query_file> [project_path]")
+        exit(0)
+
     query_file = sys.argv[1]
 
     project_path = sys.argv[2] if 2 < len(sys.argv) else os.getcwd()

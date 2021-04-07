@@ -39,6 +39,10 @@ def interpret_bqrs(project_path = os.getcwd(), output_folder = "output/"):
         print()
 
 if __name__ == '__main__':
+
+    if len(sys.argv) == 1:
+        print("parse_data.py [project_path] [output_folder]")
+        exit(0)
     
     project_path = sys.argv[1] if 1 < len(sys.argv) else os.getcwd()
     output_path = sys.argv[2] if 2 < len(sys.argv) else "output/"

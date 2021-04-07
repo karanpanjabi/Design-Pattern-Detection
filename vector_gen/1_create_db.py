@@ -18,6 +18,10 @@ def create_db(project_path = os.getcwd(), db_folder = os.getcwd()):
 
 if __name__ == '__main__':
 
+    if len(sys.argv) == 1:
+        print("create_db.py <project_path>")
+        exit(0)
+
     project_path = sys.argv[1]
 
     create_db(project_path)
