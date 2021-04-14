@@ -7,7 +7,7 @@ import collections
 import json
 
 
-class OutputJSONDir(object):
+class OutputJSONDir:
 
     def __init__(self, path):
 
@@ -15,7 +15,6 @@ class OutputJSONDir(object):
             path = path + '/'
         self.path = path
         self.inverse_map = collections.defaultdict(list)
-
 
     def load(self):
 
@@ -25,9 +24,9 @@ class OutputJSONDir(object):
 
     def reload(self):
 
-        files = map(lambda s: self.path + s,
-                filter(lambda s: s.endswith('.json') and s.startswith('has'),
-                    os.listdir(self.path)))
+        files = [self.path + p
+                 for p in os.listdir(self.path)
+                     if p.endswith('.json')]
 
         for fname in files:
             with open(fname) as f:
