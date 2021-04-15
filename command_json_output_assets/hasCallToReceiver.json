@@ -1,0 +1,8 @@
+{"columns":[
+   {"name":"cls","kind":"Entity"}]
+ ,"tuples":[
+   [{"label":"Drink"}]
+  ,[{"label":"Kick"}]
+  ,[{"label":"Jump"}]
+  ,[{"label":"Fire"}]]
+ }

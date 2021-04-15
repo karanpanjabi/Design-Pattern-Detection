@@ -7,6 +7,7 @@ import enum
 Predicates = enum.Enum('predicates',
 
     [
+        'hasCompositeChildren',
         'hasArrayOrVectorChildren',
         'hasAggregateChildren',
         'hasCompositeOperation',

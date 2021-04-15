@@ -14,7 +14,10 @@ def construct_vector(preds):
     vec = [0] * Vecdim
 
     for pred in preds:
-        vec[Predicates[pred].value] = 1
+        try:
+            vec[Predicates[pred].value] = 1
+        except KeyError:
+            pass
 
     return vec
 
@@ -41,6 +44,15 @@ def main(argv):
     elif pattern == 'absfact':
         import absfact
         Predicates = absfact.Predicates
+    elif pattern == 'observer':
+        import observer
+        Predicates = observer.Predicates
+    elif pattern == 'command':
+        import command
+        Predicates = command.Predicates
+    elif pattern == 'strategy':
+        import strategy
+        Predicates = strategy.Predicates
     else:
         raise NotImplementedError('are you sure that\'s a pattern?')
 
@@ -53,7 +65,6 @@ def main(argv):
 
     for class_name in mapping:
         class_vec = construct_vector(mapping[class_name])
-        print(class_name, class_vec)
         similarity = cosine_sim.cosine_sim(class_vec, [1] * Vecdim)
         if similarity > 0.75:
             print('{} => {:.3f}'.format(class_name, similarity))

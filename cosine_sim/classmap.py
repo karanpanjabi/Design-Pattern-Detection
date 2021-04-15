@@ -26,7 +26,7 @@ class OutputJSONDir:
 
         files = [self.path + p
                  for p in os.listdir(self.path)
-                     if p.endswith('.json')]
+                     if p.endswith('.json') and not p.startswith('#')]
 
         for fname in files:
             with open(fname) as f:

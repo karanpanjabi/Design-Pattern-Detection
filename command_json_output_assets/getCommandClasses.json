@@ -1,0 +1,9 @@
+{"columns":[
+   {"name":"bcmd","kind":"Entity"}
+  ,{"name":"ccmd","kind":"Entity"}]
+ ,"tuples":[
+   [{"label":"Command"},{"label":"Drink"}]
+  ,[{"label":"Command"},{"label":"Kick"}]
+  ,[{"label":"Command"},{"label":"Jump"}]
+  ,[{"label":"Command"},{"label":"Fire"}]]
+ }

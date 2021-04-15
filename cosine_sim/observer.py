@@ -7,9 +7,8 @@ import enum
 Predicates = enum.Enum('predicates',
 
     [
-        'getCommandClasses',
-        'getStrictCommandClasses',
-        'hasCallToReceiver',
+        'hasNotifyDefinition',
+        'updateFunctionAccessesSubject',
     ],
 
     start = 0

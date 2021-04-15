@@ -15,4 +15,7 @@ def cosine_sim(v1, v2):
         dem1 += v1[i] ** 2
         dem2 += v2[i] ** 2
 
-    return num / (dem1 * dem2) ** 0.5
+    dem = dem1 * dem2
+    if dem == 0:
+        return 0
+    return num / dem ** 0.5

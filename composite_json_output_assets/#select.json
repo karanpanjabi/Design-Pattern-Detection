@@ -1,0 +1,10 @@
+{"columns":[
+   {"name":"c","kind":"Entity"}
+  ,{"kind":"String"}]
+ ,"tuples":[
+   [{"label":"Directory"},"Vector"]
+  ,[{"label":"Directory"},"LongType"]
+  ,[{"label":"Directory"},"DirectAccessHolder"]
+  ,[{"label":"Directory"},"MetricClass"]
+  ,[{"label":"Directory"},"ClassTemplateInstantiation"]]
+ }
