@@ -22,11 +22,11 @@ def construct_vector(preds):
     return vec
 
 
-def main(argv):
+def main(argv, f=None):
 
     global Predicates, Vecdim
 
-    if len(argv) < 2 or len(argv) > 3:
+    if len(argv) != 3:
         print('usage: {} <JSON directory path> <Pattern name>'.format(argv[0]),
               file=sys.stderr)
         return 1
@@ -38,12 +38,6 @@ def main(argv):
     elif pattern == 'composite':
         import composite
         Predicates = composite.Predicates
-    elif pattern == 'adapter':
-        import adapter
-        Predicates = adapter.Predicates
-    elif pattern == 'absfact':
-        import absfact
-        Predicates = absfact.Predicates
     elif pattern == 'observer':
         import observer
         Predicates = observer.Predicates
@@ -64,10 +58,17 @@ def main(argv):
     mapping = json_to_class_mapper.load()
 
     for class_name in mapping:
+        # print(mapping[class_name])
         class_vec = construct_vector(mapping[class_name])
         similarity = cosine_sim.cosine_sim(class_vec, [1] * Vecdim)
-        if similarity > 0.75:
-            print('{} => {:.3f}'.format(class_name, similarity))
+        # print(class_name, class_vec)
+        if similarity > 0.70:
+            if f is not None:
+                print('{}: {} => {:.3f}'.format(pattern, class_name,
+                                                similarity),
+                      file=f, flush=True)
+            else:
+                print('{}: {} => {:.3f}'.format(pattern, class_name, similarity))
 
     return 0
 
