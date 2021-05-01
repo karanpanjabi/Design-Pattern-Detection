@@ -1,0 +1,9 @@
+{"columns":[
+   {"name":"c","kind":"Entity"}
+  ,{"kind":"Entity"}]
+ ,"tuples":[
+   [{"label":"__CounterMap"},{"label":"file:///home/user/work/unshared/code/courses/dpd/workflow/src/factory/WFTaskFactory.cc:65:7:65:18"}]
+  ,[{"label":"__WFGlobal"},{"label":"file:///home/user/work/unshared/code/courses/dpd/workflow/src/manager/WFGlobal.cc:45:7:45:16"}]
+  ,[{"label":"__CommManager"},{"label":"file:///home/user/work/unshared/code/courses/dpd/workflow/src/manager/WFGlobal.cc:313:7:313:19"}]
+  ,[{"label":"__DNSCache"},{"label":"file:///home/user/work/unshared/code/courses/dpd/workflow/src/manager/WFGlobal.cc:414:7:414:16"}]]
+ }

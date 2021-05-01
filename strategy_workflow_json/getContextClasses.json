@@ -1,0 +1,12 @@
+{"columns":[
+   {"name":"result","kind":"Entity"}]
+ ,"tuples":[
+   [{"label":"WFServerTask<REQ, RESP>"}]
+  ,[{"label":"Series"}]
+  ,[{"label":"WFNameService"}]
+  ,[{"label":"WFNameService"}]
+  ,[{"label":"WFServerTask<REQ, RESP>"}]
+  ,[{"label":"Series"}]
+  ,[{"label":"WFServerTask<HttpRequest, HttpResponse>"}]
+  ,[{"label":"Series"}]]
+ }

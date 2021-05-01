@@ -1,0 +1,22 @@
+{"columns":[
+   {"name":"c","kind":"Entity"}]
+ ,"tuples":[
+   [{"label":"Graph"}]
+  ,[{"label":"ThreadPoolSingleton"}]
+  ,[{"label":"duration<long, ratio<1L, 1000000000L>>"}]
+  ,[{"label":"time_point<_Clock, _Dur>"}]
+  ,[{"label":"duration<_Rep, _Period>"}]
+  ,[{"label":"locale"}]
+  ,[{"label":"_Rb_tree_node_base"}]
+  ,[{"label":"ITagAliasRegistry"}]
+  ,[{"label":"SectionTracker"}]
+  ,[{"label":"Singleton<StringStreams, StringStreams, StringStreams>"}]
+  ,[{"label":"GeneratorTracker"}]
+  ,[{"label":"Singleton<RegistryHub, IRegistryHub, IMutableRegistryHub>"}]
+  ,[{"label":"BasicResult<ParseResultType>"}]
+  ,[{"label":"BasicResult<ParseState>"}]
+  ,[{"label":"BasicResult<void>"}]
+  ,[{"label":"Approx"}]
+  ,[{"label":"Singleton<SingletonImplT, InterfaceT, MutableInterfaceT>"}]
+  ,[{"label":"BasicResult<T>"}]]
+ }

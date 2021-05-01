@@ -1,0 +1,18 @@
+{"columns":[
+   {"name":"c","kind":"Entity"}]
+ ,"tuples":[
+   [{"label":"WFGraphNode"}]
+  ,[{"label":"WFGraphNode"}]
+  ,[{"label":"__mutex_base"}]
+  ,[{"label":"__recursive_mutex_base"}]
+  ,[{"label":"LRUHandle<KEY, VALUE>"}]
+  ,[{"label":"__CounterMap"}]
+  ,[{"label":"__WFGlobal"}]
+  ,[{"label":"__CommManager"}]
+  ,[{"label":"__DNSCache"}]
+  ,[{"label":"basic_iostream<_CharT, _Traits>"}]
+  ,[{"label":"basic_istream<_CharT, _Traits>"}]
+  ,[{"label":"basic_ostream<_CharT, _Traits>"}]
+  ,[{"label":"basic_ios<_CharT, _Traits>"}]
+  ,[{"label":"ios_base"}]]
+ }

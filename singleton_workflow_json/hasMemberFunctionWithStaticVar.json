@@ -1,0 +1,12 @@
+{"columns":[
+   {"name":"c","kind":"Entity"}]
+ ,"tuples":[
+   [{"label":"__CounterMap"}]
+  ,[{"label":"__UpstreamManager"}]
+  ,[{"label":"__WFGlobal"}]
+  ,[{"label":"__NameServiceManager"}]
+  ,[{"label":"__CommManager"}]
+  ,[{"label":"__ExecManager"}]
+  ,[{"label":"__SSLManager"}]
+  ,[{"label":"__DNSCache"}]]
+ }

@@ -1,0 +1,10 @@
+{"columns":[
+   {"name":"c","kind":"Entity"}]
+ ,"tuples":[
+   [{"label":"ThreadPoolSingleton"}]
+  ,[{"label":"Singleton<StringStreams, StringStreams, StringStreams>"}]
+  ,[{"label":"Singleton<RegistryHub, IRegistryHub, IMutableRegistryHub>"}]
+  ,[{"label":"NoColourImpl"}]
+  ,[{"label":"PosixColourImpl"}]
+  ,[{"label":"Singleton<SingletonImplT, InterfaceT, MutableInterfaceT>"}]]
+ }

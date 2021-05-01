@@ -1,0 +1,17 @@
+{"columns":[
+   {"name":"c","kind":"Entity"}]
+ ,"tuples":[
+   [{"label":"_Rb_tree_node_base"}]
+  ,[{"label":"duration<long, ratio<1L, 1000000000L>>"}]
+  ,[{"label":"time_point<_Clock, _Dur>"}]
+  ,[{"label":"duration<_Rep, _Period>"}]
+  ,[{"label":"__CounterMap"}]
+  ,[{"label":"__UpstreamManager"}]
+  ,[{"label":"__WFGlobal"}]
+  ,[{"label":"__NameServiceManager"}]
+  ,[{"label":"__CommManager"}]
+  ,[{"label":"__ExecManager"}]
+  ,[{"label":"__SSLManager"}]
+  ,[{"label":"__DNSCache"}]
+  ,[{"label":"locale"}]]
+ }

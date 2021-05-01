@@ -1,0 +1,18 @@
+{"columns":[
+   {"name":"result","kind":"Entity"}]
+ ,"tuples":[
+   [{"label":"IOService"}]
+  ,[{"label":"IOService"}]
+  ,[{"label":"CommService"}]
+  ,[{"label":"CommService"}]
+  ,[{"label":"CommMessageIn"}]
+  ,[{"label":"CommMessageIn"}]
+  ,[{"label":"CommMessageOut"}]
+  ,[{"label":"CommMessageOut"}]
+  ,[{"label":"SubTask"}]
+  ,[{"label":"SubTask"}]
+  ,[{"label":"CommSchedObject"}]
+  ,[{"label":"CommSchedObject"}]
+  ,[{"label":"WFNSPolicy"}]
+  ,[{"label":"WFNSPolicy"}]]
+ }

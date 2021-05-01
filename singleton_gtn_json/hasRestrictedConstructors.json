@@ -1,0 +1,14 @@
+{"columns":[
+   {"name":"c","kind":"Entity"}]
+ ,"tuples":[
+   [{"label":"_Result_base"}]
+  ,[{"label":"basic_ostream<_CharT, _Traits>"}]
+  ,[{"label":"ios_base"}]
+  ,[{"label":"basic_ios<_CharT, _Traits>"}]
+  ,[{"label":"basic_istream<_CharT, _Traits>"}]
+  ,[{"label":"basic_iostream<_CharT, _Traits>"}]
+  ,[{"label":"__mutex_base"}]
+  ,[{"label":"__recursive_mutex_base"}]
+  ,[{"label":"__basic_future<_Res>"}]
+  ,[{"label":"NonCopyable"}]]
+ }
